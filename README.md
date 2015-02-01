@@ -1,3 +1,5 @@
+cpptemplate
+-----------
 'cpptemplate' is a cmake template for a C++ project integrated with google test.
 It may be forked to create a starting point for a new project. It contains a 
 sample source file and a google test. The project is named 'myproject' and 
