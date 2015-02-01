@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Generate make files
-cd build
+mkdir -p build && cd build
 cmake ..
 
 # Compile the code to generate tests.exe
