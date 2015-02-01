@@ -17,7 +17,7 @@ Run build.cmd from VS2012 x86 native command prompt. For detailed instructions
 read below.
 
 
-Setting up dev environement using Visual Studio
+Setting up dev environment using Visual Studio
 -----------------------------------------------
 Assuming, the template has been checked out to c:\workspace\. as 'myproject',
 and that you have cmake.exe installed, follow the steps below.
