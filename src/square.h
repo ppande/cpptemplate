@@ -12,6 +12,7 @@
 
 
 int square(int x);
+double square(double x);
 
 
 
