@@ -8,3 +8,6 @@ int square(int x) {
   return x * x;
 }
 
+double square(double x) {
+  return x * x;
+}

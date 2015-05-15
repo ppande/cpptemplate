@@ -4,9 +4,9 @@ file(GLOB_RECURSE MYPROJECT_SRC .
    "*.cc"
 )
 
-add_library(myproject ${MYPROJECT_SRC})
+add_library(${PROJECT_NAME} ${MYPROJECT_SRC})
 
-install (TARGETS myproject DESTINATION lib)
+install (TARGETS ${PROJECT_NAME} DESTINATION lib)
 install (DIRECTORY . DESTINATION include
   FILES_MATCHING PATTERN "*.h")
 
